@@ -267,7 +267,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     fstab.qcom \
     ueventd.qcom.rc \
-    init.safailnet.rc
+    init.safailnet.rc \
+    init.spectrum.rc \
+    init.spectrum.sh
 
 # Keymaster
 PRODUCT_PACKAGES += \
