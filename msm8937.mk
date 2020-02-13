@@ -258,6 +258,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.usb.sh \
     init.qcom.sh \
+    init2.goodix.sh \
     init.target.rc \
     fstab.qcom \
     ueventd.qcom.rc \
