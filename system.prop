@@ -205,3 +205,7 @@ rsist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Sim Selection Fix
 persist.vendor.radio.aosp_usr_pref_sel=true
+
+# FWK
+ro.vendor.qti.va_aosp.support=1
+ro.vendor.qti.va_odm.support=1
