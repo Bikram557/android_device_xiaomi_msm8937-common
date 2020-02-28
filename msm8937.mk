@@ -472,6 +472,10 @@ PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl
 
+#XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiAddon
+
 #PRODUCT_BOOT_JARS += \
 #   WfdCommon
 
