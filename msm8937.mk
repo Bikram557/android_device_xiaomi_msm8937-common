@@ -284,6 +284,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
+#PixelSounds
+ifeq ($(DERP_BUILD_ZIP_TYPE), VANILLA)
+PRODUCT_PACKAGES += \
+    PixelSounds
+endif
+
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
