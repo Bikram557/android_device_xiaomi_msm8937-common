@@ -27,11 +27,6 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# DTS
-PRODUCT_GENERIC_PROPERTIES += \
-   use.dts_eagle=true \
-   hpx_send_params=1
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml \
