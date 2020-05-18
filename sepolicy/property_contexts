@@ -1,3 +1,0 @@
-oem.device.imeicache               u:object_r:radio_prop:s0
-persist.camera.                    u:object_r:camera_prop:s0
-gsm.version.baseband               u:object_r:baseband_prop:s0
